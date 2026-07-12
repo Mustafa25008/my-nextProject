@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <>
       <div className="font-serif">
-        <div className="relative w-full h-125">
+        <div className="relative w-full h-screen">
           {/* Background Image */}
           <Image
             src="/hero-img.png"
@@ -20,7 +20,7 @@ export default async function Home() {
             {/* Header Component */}
             <Header />
             {/* Hero Compoment */}
-            <div className="grow flex justify-start items-center px-20">
+            <div className="grow flex justify-start items-center px-10">
               <Hero />
             </div>
           </div>
@@ -29,7 +29,7 @@ export default async function Home() {
         
         {/* <Header /> */}
         {/* Search Icon */}
-        <div className="p-3 bg-amber-900">
+        <div className="p-3 bg-[#F7F1EA] min-h-screen">
           <SearchIcon />
         </div>
       </div>
