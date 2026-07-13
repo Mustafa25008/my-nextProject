@@ -10,7 +10,7 @@ export default function Hero() {
           <br />
           The Ordinary
         </h1>
-        <p className="text-2xl">
+        <p className="text-2xl mb-4">
           Discover breathtabing destinations, unforgettable experiences, and
           memories that will last a lifetime.
         </p>
