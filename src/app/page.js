@@ -16,21 +16,31 @@ export default async function Home() {
             priority
             className="object-cover -z-10"
           />
-          <div className="relative z-10 h-full flex flex-col justify-between px-20">
+          <div className="relative z-10 h-full flex flex-col justify-between">
             {/* Header Component */}
             <Header />
+            
             {/* Hero Compoment */}
-            <div className="grow flex justify-start items-center px-10">
+            <div className="grow flex justify-start items-center px-30">
               <Hero />
             </div>
           </div>
         </div>
         
-        
-        {/* <Header /> */}
-        {/* Search Icon */}
-        <div className="p-3 bg-[#F7F1EA] min-h-screen">
-          <SearchIcon />
+        {/* About Us */}
+        <div className="p-3 bg-[#eaf7ee] h-screen">
+          <div className="flex">
+            <div></div>
+            <div className="text-black">
+              <Image
+                src="/about-us-img.png"
+                alt="About Us"
+                width={500}
+                height={300}
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
