@@ -3,7 +3,7 @@ import Hero from "./components/hero/Hero";
 import Image from "next/image";
 import Footer from "./components/footer";
 
-export default async function Home() {
+export default function Home() {
   return (
     <>
       <div className="font-serif">
