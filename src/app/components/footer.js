@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-center mt-8">
+      <div className="text-center mt-6 border-t-2 pt-4">
         &copy; {new Date().getFullYear()} All rights reserved.
       </div>
     </footer>
